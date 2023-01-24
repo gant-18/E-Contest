@@ -1,0 +1,14 @@
+                                             SMALLEST NUMBER
+
+Take a 5-digit number as input consisting of only the digits 1,2,3,4,5. Output the smallest number that can be obtained by rearranging the digits.
+
+INPUT   :  Single string containing only 1,2,3,4,5.
+OUTPUT  :  Single string containing only 1,2,3,4,5.
+
+EXAMPLES:
+
+INPUT   :  35423
+OUTPUT  :  23345
+
+INPUT   :  35124
+OUTPUT  :  12345

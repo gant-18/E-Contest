@@ -1,0 +1,16 @@
+                                                       ASCII
+
+Take string containing only symbols( !, @, #, $, %, ^, &, *) and letters a,b,c as input. Convert each symbol into its ASCII codes and print the binary value of each ASCII code starting from the left in a new line.
+
+INPUT   :  String containing only symbols( !, @, #, $, %, ^, &, *) and letters a,b,c
+OUTPUT  :  Strings containing ‘0’ or ‘1’ (each string in a new line).
+
+EXAMPLES:
+
+INPUT   :  a*%^b@cc&*
+OUTPUT  :  00101010
+	   00100101
+	   01011110
+	   01000000
+	   00100110
+	   00101010

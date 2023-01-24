@@ -1,0 +1,16 @@
+                                                    MULTIPLICATION
+
+Take two strings containing n and m "*"s respectively. Print a string containing n multiplied by m number of "*".
+
+INPUT    :  Two strings containing only "*". 
+OUTPUT   :  Single string containing only "*".
+
+EXAMPLES:
+
+INPUT_1  :  ***
+INPUT_2  :  ****
+OUTPUT   :  ************
+
+INPUT_1  :  **
+INPUT_2  :  ***
+OUTPUT   :  ******

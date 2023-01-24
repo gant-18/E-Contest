@@ -1,0 +1,15 @@
+                                              TWO’S COMPLEMENT
+
+Two’s complement of a binary number is the binary number we obtain by adding 1 to the complement of a binary number.
+In this question, take a binary number as input and print the two’s complement of the input as output.
+
+INPUT   :  Single string containing ‘0’ or ‘1’. (number of digits < 100)
+OUTPUT  :  Single string containing ‘0’ or ‘1’.
+
+EXAMPLES:
+
+INPUT   :  00101011010
+OUTPUT  :  11010100110
+
+INPUT   :  0101
+OUTPUT  :  1011

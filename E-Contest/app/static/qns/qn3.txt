@@ -1,0 +1,16 @@
+                                                     COUNT
+
+Take a string containing only ‘a’ and ‘b’ as input and output the number of b’s present in the string.
+The string can be of any length less than 100 but it is guaranteed that the number of b’s in the string is
+less than 10.
+
+INPUT   :  Single string containing only ‘a’ and ‘b’. (length of string <100)
+OUTPUT  :  Single integer denoting the number of b's.
+
+EXAMPLES:
+
+INPUT   :  abbbaaabababaa
+OUTPUT  :  6
+
+INPUT   :  bababababbba
+OUTPUT  :  7

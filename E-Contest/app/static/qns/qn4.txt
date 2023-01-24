@@ -1,0 +1,17 @@
+                                            STRING COMPARISION
+
+Given two strings of the same length containing only the characters ‘a’, ‘b’, and ‘c’.
+Check whether both strings are the same. If the same print YES else print NO.
+
+INPUT   :  Two strings containing only 'a', 'b', and 'c'.
+OUTPUT  :  Print "YES" or "NO"(Without the quotes and the letters should be Uppercase).
+
+EXAMPLES:
+
+INPUT_1 :  abababbaaab
+INPUT_2 :  abababbaaab
+OUTPUT  :  YES
+
+INPUT_1 :  abababbaaab
+INPUT_2 :  ababbbbabbb
+OUTPUT  :  NO

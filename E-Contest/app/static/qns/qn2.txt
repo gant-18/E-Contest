@@ -1,0 +1,18 @@
+                                     ADDITION OF TWO BINARY NUMBERS
+
+Take a single string containing two binary numbers(with the same number of digits) and a '+' character seperating them.
+Print the number obtained by adding these two binary numbers and the output should also contain the same number
+of characters as the two binary numbers.
+
+INPUT   :  Single string containing two binary numbers separated by a ‘+’. (number of digits < 100)
+OUTPUT  :  Single string containing ‘0’ or ‘1’ as the characters.
+
+Assume the initial carry as '0'.
+
+EXAMPLES:
+
+INPUT   :  00101+11010
+OUTPUT  :  11111
+
+INPUT   :  01+01
+OUTPUT  :  10

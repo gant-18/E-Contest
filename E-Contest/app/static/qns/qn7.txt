@@ -1,0 +1,17 @@
+                                                      STAR
+
+Take a string containing n dots as input and print a star pattern containing 'n' lines with the number of stars in each line equal to the line number.
+
+INPUT   :  Single string containing n dots '.'.
+OUTPUT  :  'n' lines containing only stars.
+
+EXAMPLES:
+
+INPUT   :  .......
+OUTPUT  :  *
+           **
+           ***
+           ****
+           *****
+           ******
+           *******
