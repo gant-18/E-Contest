@@ -1,7 +1,7 @@
 import filecmp
 import os
 import re
-import multiprocessing
+import multiprocessing as mp
 from app.compiler import interpret
 
 noTC = {'1': 10,'2': 19,'3': 19,'4': 19,'5': 16,'6': 19,'7': 19}
@@ -16,8 +16,8 @@ def score(code,qn_no,pno) :
 			with open(outputfilePath,'w+') as mfile :
 				count += 1
 				inpfilePath = inputPath + '/' + filename
-				Q = multiprocessing.Queue()
-				prc = multiprocessing.Process(target = interpret,args = (code,inpfilePath,outputfilePath,Q))
+				Q = mp.Queue()
+				prc = mp.Process(target = interpret,args = (code,inpfilePath,outputfilePath,Q))
 				prc.daemon = True
 				prc.start()
 
