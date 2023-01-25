@@ -443,8 +443,8 @@ def submissions() :
 			"%H:%M:%S %d/%m/%Y") + '\nFind standings at e-contest.herokuapp.com/standings'
 		return render_template('login.html', form=LoginForm(), error=error)
 	usr = User.query.filter_by(id = session['userid']).first()
-	sub = usr.submission
-	return render_template('submissions.html',name = session['username'],submissions = sub,to_time = time.strftime,to_ttuple = time.gmtime)
+	subs = usr.submission
+	return render_template('submissions.html',name = session['username'],submissions = subs,to_time = time.strftime,to_ttuple = time.gmtime)
 
 if __name__ == '__main__' :
 	app.run()
